@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learning Templates</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+<h1>Hi {{name}}! How are you finding Flask sessions?</h1>
+{%if name == 'Godwin':%}
+<p>You are the admin</p>
+{%else%}
+<p>You are a normal user</p>
+{%endif%}
+</body>
+</html>
